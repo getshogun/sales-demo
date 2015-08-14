@@ -13,6 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap-sprockets
-//= require custom
-//= require jquery.prettyPhoto.min
 //= require modernizr.min
+//= require jquery.prettyPhoto.min
+//= require custom
