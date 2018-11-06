@@ -16,6 +16,7 @@ gem 'shogun', github: 'getshogun/shogun_rails'
 gem 'uglifier', '>= 1.3.0'
 group :development do
   gem 'better_errors'
+  gem 'dotenv-rails'
   gem 'html2haml'
   gem 'quiet_assets'
   gem 'rails_layout'
