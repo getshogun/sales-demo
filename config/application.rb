@@ -1,4 +1,6 @@
-require File.expand_path('../boot', __FILE__)
+# frozen_string_literal: true
+
+require File.expand_path('boot', __dir__)
 
 require 'rails/all'
 
@@ -8,7 +10,7 @@ Bundler.require(*Rails.groups)
 
 module SalesDemo
   class Application < Rails::Application
-    config.assets.precompile += %w(ie.js)
+    config.assets.precompile += %w[ie.js]
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
